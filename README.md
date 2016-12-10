@@ -11,12 +11,16 @@ To build and run:
 1. `git clone git@github.com:rstinejr/SimpleLinqExample.git`
 2. `cd SimpleLinqExample\src`
 3. `dotnet restore`
-4. `dotnet run`
+4. 'dotnet build'
+5. `dotnet run`
 
 Expected output from `dotnet run` is
 ```
-Project src (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
 Search result for Name == Sam: Name: Sam, Age: 30, Weight: 170
+Search result for Name == Sally, Age > 10: Name: Sally, Age: 12, Weight: 100
 Search result for Name == Sue: <none>
+
+piDigs:
+3 1 4 1 5 9 2 6 5 3
 piDigs count 10, avg 3.9, max 9
 ```
