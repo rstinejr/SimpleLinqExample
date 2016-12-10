@@ -12,3 +12,11 @@ To build and run:
 2. `cd SimpleLinqExample`
 3. `dotnet restore`
 4. `dotnet run`
+
+Expected output from `dotnet run` is
+```
+Project src (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
+Search result for Name == Sam: Name: Sam, Age: 30, Weight: 170
+Search result for Name == Sue: <none>
+piDigs count 10, avg 3.9, max 9
+```
