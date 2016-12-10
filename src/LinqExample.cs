@@ -14,7 +14,7 @@ namespace Stine.Sample.Linq
                 new Person("Sly", 50, 180)
             };
 
-            // 'p => p.Name == "Sam"' is a lambda expression - essentially an anonymous function that returns boolean.
+            // 'p => p.Name == "Sam"' is a lambda expression - essentially an anonymous function 
             var samHits = people.Where(p => p.Name == "Sam");
             Console.WriteLine("Search result for Name == Sam: {0}", (samHits.Count() == 0) ? "<none>" : samHits.First().ToString());
 
