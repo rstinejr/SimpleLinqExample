@@ -9,7 +9,7 @@ any OS that has .NET Core installed.
 To build and run:
 
 1. `git clone git@github.com:rstinejr/SimpleLinqExample.git`
-2. `cd SimpleLinqExample`
+2. `cd SimpleLinqExample\src`
 3. `dotnet restore`
 4. `dotnet run`
 
