@@ -1,29 +1,9 @@
-# Compiled Object files
-*.slo
-*.lo
+bin
+obj
+.vs
+*.dll
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.swp
+*.xproj.user
+project.lock.json
