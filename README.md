@@ -24,3 +24,5 @@ piDigs:
 3 1 4 1 5 9 2 6 5 3
 piDigs count 10, avg 3.9, max 9
 ```
+
+There is a VisualStudio solution file, too.
