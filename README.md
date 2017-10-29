@@ -10,7 +10,7 @@ Since initial development, we've upgraded to dotnet 1.1.0 and VisualStudio 2017.
 
 To build and run:
 
-1. `git clone git@github.com:rstinejr/SimpleLinqExample.git`
+1. `git clone https://github.com/rstinejr/SimpleLinqExample.git`
 2. `cd SimpleLinqExample\src`
 3. `dotnet restore`
 4. 'dotnet build'
